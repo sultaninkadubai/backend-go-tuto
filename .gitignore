@@ -1,1 +1,14 @@
+
 .idea
+
+# Ignore Go executables
+/main
+
+# Or better yet, ignore the entire output directory
+/bin/
+/build/
+
+# Common Go ignore patterns
+/pkg/
+*.test
+*.out
